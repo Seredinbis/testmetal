@@ -2,7 +2,6 @@ from flask import Flask, request
 
 app = Flask(__name__)
 
-webh_data = Noneq
 
 @app.route('/', methods=['POST', 'GET', 'PUT'])
 def webhook():
