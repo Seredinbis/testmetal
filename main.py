@@ -16,6 +16,6 @@ def webhook():
     print(webh_data['object']['source']['pay'])
     print(webh_data['object']['source']['pay']['first'])
     return '200'  # отправляем ответ серверу, чтобы он знал, что запрос успешно обработан
-git add main.oy
+
 
 app.run(debug=True, port=5000)  # запускаем приложение в режиме отладки
